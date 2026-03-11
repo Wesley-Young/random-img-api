@@ -1,11 +1,13 @@
 {
   "name": "random-img-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Serve random images from local directory",
   "files": [
     "dist"
   ],
-  "bin": "dist/index.mjs",
+  "bin": {
+    "random-img-api": "dist/index.mjs"
+  },
   "scripts": {
     "build": "tsdown",
     "prepare": "npm run build",
