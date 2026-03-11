@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { serve } from '@hono/node-server';
 import { createApp } from './app';
 import { loadConfig } from './config';
